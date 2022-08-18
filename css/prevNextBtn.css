@@ -1,0 +1,25 @@
+.prev-btn,
+.next-btn {
+  color: var(--clr-primary-7);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+ 
+}
+.prev-btn{
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+.next-btn {
+    position: absolute;
+    top: 60%;
+    right: 0;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: hsl(205, 78%, 60%);;
+}
